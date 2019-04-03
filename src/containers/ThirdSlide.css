@@ -1,0 +1,26 @@
+.third-slide {
+  width: 1024px;
+  height: 768px;
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.third-slide-title {
+  font-size: 30px;
+  font-family: GothamPro;
+  color: #ffffff;
+  margin-left: 84px;
+  margin-top: 117px;
+}
+
+.third-slide-box {
+  background: url('../assets/slide-3-box.png');
+  background-repeat: no-repeat;
+  width: 909px;
+  height: 499px;
+  background-size: contain;
+  align-self: center;
+  margin-top: 12px;
+}

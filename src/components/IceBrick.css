@@ -1,0 +1,89 @@
+.ice-brick-1 {
+  width: 215px;
+  height: 206px;
+  background: url('../assets/ice-brick-1.png'); 
+}
+
+.ice-brick-2 {
+ width: 41px;
+ height: 39px;
+ background: url('../assets/ice-brick-2.png');
+}
+
+.ice-brick-3 {
+  width: 104px;
+  height: 101px;
+  background: url('../assets/ice-brick-3.png');
+}
+
+.ice-brick-4 {
+  width: 75px;
+  height: 76px;
+  background: url('../assets/ice-brick-4.png');
+}
+
+.ice-brick-5 {
+  width: 38px;
+  height: 39px;
+  background: url('../assets/slide-1-ice-brick-1.png');
+  opacity: 0.53;
+}
+
+.ice-brick-6 {
+  width: 106px;
+  height: 101px;
+  background: url('../assets/slide-1-ice-brick-2.png');
+  opacity: 0.53;
+}
+
+.ice-brick-7 {
+  width: 216px;
+  height: 205px;
+  background: url('../assets/slide-1-ice-brick-3.png');
+  opacity: 0.53;
+}
+
+.ice-brick-8 {
+  width: 38px;
+  height: 39px;
+  background: url('../assets/slide-2-ice-brick-1.png');
+  opacity: 0.53;
+}
+
+.ice-brick-9 {
+  width: 106px;
+  height: 101px;
+  background: url('../assets/slide-2-ice-brick-2.png');
+  opacity: 0.53;
+}
+
+.ice-brick-10 {
+  width: 216px;
+  height: 205px;
+  background: url('../assets/slide-2-ice-brick-3.png');
+  opacity: 0.55;
+}
+
+.ice-brick-11 {
+  width: 38px;
+  height: 39px;
+  background: url('../assets/slide-3-ice-brick-1.png');
+}
+
+.ice-brick-12 {
+  width: 106px;
+  height: 101px;
+  background: url('../assets/slide-3-ice-brick-2.png');
+}
+
+.ice-brick-13 {
+  width: 216px;
+  height: 205px;
+  background: url('../assets/slide-3-ice-brick-3.png');
+  opacity: 0.53;
+}
+
+.ice-brick {
+  position: absolute;
+  background-size: cover;
+}

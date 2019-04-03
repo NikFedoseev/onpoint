@@ -1,0 +1,13 @@
+.third-block {
+  width: 100%;
+  min-height: 100%;
+  background: url('../assets/third-block-bg.png');
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.slides-wrapper {
+  height: 100%;
+  width: max-content;
+}

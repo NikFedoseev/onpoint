@@ -1,0 +1,63 @@
+.pulse-circle {
+  position: absolute;
+}
+
+.pulse-circle-wrap {
+  position: relative;
+}
+
+.cirlce-text {
+  position: absolute;
+  width: max-content;
+  color: #0d319c;
+  font-family: Lato;
+  font-size: 20px;
+}
+
+.circle-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 2px solid rgba(209, 80, 52, .6);
+  background: radial-gradient(circle 53px at center, rgba(222, 121, 27, 0.16) 0%, rgba(222, 121, 27, 0.16) 1%, rgba(207, 20, 55, 0.16) 100%);
+}
+
+.circle-2, .circle-3, .circle-4 {
+  position: absolute;
+  /*width: 26px;
+  height: 26px;
+  top: 13px;
+  left: 13px;*/
+  border-radius: 50%;
+  border: 1px solid rgba(209, 80, 52, .6);
+  animation: pulsing 2.1s infinite;
+  background: radial-gradient(rgba(208, 47, 54, .62), rgba(222, 119, 28, .62));
+  opacity: 0;
+}
+
+.circle-3 {
+  animation-delay: .7s;
+}
+
+.circle-4 {
+  animation-delay: 1.4s;
+}
+
+@keyframes pulsing {
+  0% {
+      transform: scale(0);
+      opacity: 1;
+  }
+
+  50%{
+      background: rgba(222, 119, 28, .5);
+  }
+
+  100% {
+      transform: scale(3);
+      background: rgba(222, 119, 28, .1);
+      opacity: 1;
+
+  }
+}

@@ -1,0 +1,32 @@
+.App {
+  min-height: 100%;
+  display: flex;
+  max-width: 1024px;
+  max-height: 768px;
+  overflow: hidden;
+}
+
+.App-wrapper {
+  transition: 1s;
+  width: 100%;
+}
+
+@font-face {
+  font-family: GothamPro;
+  src: url('../fonts/GothamPro.ttf');
+}
+
+@font-face {
+  font-family: GothamProLight;
+  src: url('../fonts/GothamProLight.ttf')
+}
+
+@font-face {
+  font-family: LatoM;
+  src: url('../fonts/Lato-Medium.ttf');
+}
+
+@font-face {
+  font-family: LatoS;
+  src: url('../fonts/Lato-Semibold.ttf');
+}

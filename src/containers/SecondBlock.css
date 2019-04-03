@@ -1,0 +1,17 @@
+.second-block {
+  width: 100%;
+  min-height: 100%;
+  background: url('../assets/second-block-bg.png');
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.second-block-title {
+  font-family: GothamProLight;
+  font-size: 50px;
+  margin-top: 256px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 0 119px rgba(0, 131, 254, 0.09);
+}
